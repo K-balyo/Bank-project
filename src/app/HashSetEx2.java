@@ -1,0 +1,16 @@
+package app;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetEx2 {
+	public static void main(String[] args) {
+		Set<Member> set = new HashSet<Member>();
+	    set.add(new Member("È«±æµ¿", 30));
+	    set.add(new Member("È«±æµ¿", 30));
+	    System.out.println("ÃÑ °´Ã¼¼ö : " + set.size());
+	    System.out.println(new Member("È«±æµ¿", 30).hashCode());
+	    System.out.println(new Member("È«±æµ¿", 30).hashCode());
+	}
+
+}
